@@ -4,7 +4,7 @@ const Deploy = () => {
   return (
     <div>
       <h1 className="common_header">Bot Manager</h1>
-      <div className="Dep_Container">
+      <div className="Dep_Container CBS">
         <div className="Dep_Input">
           <span>Destination :</span>
           <input placeholder="Destination" />

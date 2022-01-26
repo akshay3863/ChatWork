@@ -6,9 +6,6 @@
 .chart_card {
   max-width: 800px;
   min-height: 450px;
-  background: #ffffff;
-  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
-  border-radius: 5px;
 }
 
 .chart_main_container {
@@ -26,9 +23,6 @@
 }
 
 .FAQ_Container {
-  background: #ffffff;
-  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
-  border-radius: 5px;
   min-height: 339px;
   padding: 30px;
 }

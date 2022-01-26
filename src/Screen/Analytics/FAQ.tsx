@@ -25,7 +25,7 @@ const FAQ = () => {
   return (
     <>
       <h1 className='common_header'>Topics</h1>
-      <div className='FAQ_Container'>
+      <div className='FAQ_Container CBS'>
         <div className='FAQ_Cont'>
           <div className='FAQ_TOPIC'>How to update my KYC details?</div>
           <div className='FAQ_PROGRESS'>

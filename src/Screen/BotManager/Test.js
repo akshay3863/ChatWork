@@ -7,7 +7,7 @@ const Test = () => {
   return (
     <div>
       <h1 className="common_header">Bot Manager</h1>
-      <div className="Chat_Box_Bot_manager">
+      <div className="Chat_Box_Bot_manager CBS">
         <div className="Chat_Box_main_Container">
           <div className="Chat_box_header_Container"></div>
           <div className="Chat_Box_Body_Container">

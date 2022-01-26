@@ -4,7 +4,7 @@ const Setting = () => {
   return (
     <div>
       <h1 className="common_header">Settings</h1>
-      <div className="Setting_Container"></div>
+      <div className="Setting_Container CBS"></div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ const index = () => {
       <DatePicker />
       <div className="Conversation_Container">
         <h1 className="common_header">Conversations</h1>
-        <div className="Conversation_Sub_Container">
+        <div className="Conversation_Sub_Container CBS">
           <div className="Conversation_Table_Container">
             <div className="Conversation_Table_Header">
               <span>Date</span>

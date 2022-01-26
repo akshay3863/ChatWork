@@ -3,9 +3,6 @@
 }
 
 .Conversation_Sub_Container {
-  background: #ffffff;
-  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
-  border-radius: 5px;
   height: 600px;
   padding: 30px;
   display: grid;

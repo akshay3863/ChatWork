@@ -10,7 +10,7 @@ const Build = () => {
           <div>Add KB</div>
         </div>
       </div>
-      <div className="Bot_table">
+      <div className="Bot_table CBS">
         <div className="Bot_table_Main">
           <div className="Bot_Table_header">
             <div>Sl.No</div>
