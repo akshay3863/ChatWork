@@ -37,6 +37,7 @@
   height: 700px;
   margin-top: 15px;
   padding: 30px;
+  overflow: auto;
 }
 .Bot_Table_header {
   display: grid;

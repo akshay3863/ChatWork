@@ -3,14 +3,19 @@
   width: 100vw;
   overflow: hidden;
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 300px 1fr;
+  /* display: grid;
+  grid-template-columns: 300px 1fr; */
+  display: flex;
+  position: relative;
 }
 
 /* SIDEBAR */
 .side-bar-container {
   display: flex;
   flex-direction: column;
+  width: 300px;
+  transition: 0.8s ease;
+  background-color: #fff;
 }
 
 .side-header-main {
@@ -21,6 +26,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 40px;
+  position: relative;
 }
 
 .SideBarLink {
@@ -79,6 +85,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
 }
 .header-div {
   margin-right: 30px;
@@ -131,14 +138,63 @@
   width: calc(100vw - 360px);
 }
 
+.Menu_Container {
+  display: none;
+}
+.Close_Container {
+  display: none;
+}
+
 /* CONTENTCONTENT_ENd */
 
-@media (max-width: 961px) {
-  .layout-container {
-    grid-template-columns: 250px 1fr;
-  }
+/* @media (max-width: 961px) {
   .content-children-container {
     padding: 20px;
     width: calc(100vw - 290px);
+  }
+} */
+@media (max-width: 768px) {
+  .side-bar-container {
+    position: absolute;
+    z-index: 9999;
+    height: 100%;
+  }
+  .content-children-container {
+    padding: 20px;
+    width: calc(100vw - 40px);
+  }
+  .Menu_Container {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .Close_Container {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .side-header-main {
+    justify-content: flex-start;
+  }
+
+  .Menu_Container img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .Close_Container img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+
+  .Logo_Img {
+    width: 150px;
   }
 }

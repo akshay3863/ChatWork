@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Layout.css";
 import LogoImg from "../../assets/Logo_White.svg";
 import DashbordIcon from "../../assets/Nav/dashbord.svg";
@@ -8,14 +8,17 @@ import BotManagerIcon from "../../assets/Nav/Bot Manager.svg";
 import AnalyticsIcon from "../../assets/Nav/Analytics.svg";
 import ConversationIcon from "../../assets/Nav/Conversations.svg";
 import SettingIcon from "../../assets/Nav/Setting.svg";
-
+import MenuIcon from "../../assets/menu.svg";
+import CloseIcon from "../../assets/close.svg";
 import notification from "../../assets/notification.svg";
 import qesIcon from "../../assets/qes.svg";
 import DownIcon from "../../assets/down.svg";
 import ProfilePic from "../../assets/profile.jfif";
-
 import { NavLink } from "react-router-dom";
-const index = ({ Children: ReactComponent }) => {
+import useWindowDimensions from "../../helper/Dimansion";
+const Index = ({ Children: ReactComponent }) => {
+  const [xPosition, setX] = useState(0);
+  const { width } = useWindowDimensions();
   const NavLinkData = [
     {
       path: "/dashboard",
@@ -54,11 +57,41 @@ const index = ({ Children: ReactComponent }) => {
     },
   ];
 
+  const SideMenuHanlder = () => {
+    if (xPosition < 0) {
+      setX(0);
+    } else {
+      setX(-300);
+    }
+  };
+
+  useEffect(() => {
+    if (width <= 768) {
+      setX(-300);
+    }
+    if (width >= 768) {
+      setX(0);
+    }
+  }, [width]);
+
   return (
     <div className="layout-container">
-      <div className="side-bar-container">
+      <div
+        className="side-bar-container"
+        style={{
+          transform: `translatex(${xPosition}px)`,
+        }}
+      >
         <div className="side-header-main">
-          <img src={LogoImg} alt="Logo" />
+          <img src={LogoImg} alt="Logo" className="Logo_Img" />
+          <div
+            className="Close_Container"
+            onClick={() => {
+              SideMenuHanlder();
+            }}
+          >
+            <img src={CloseIcon} alt="Menu" />
+          </div>
         </div>
         {NavLinkData.map((value, index) => {
           return (
@@ -77,6 +110,14 @@ const index = ({ Children: ReactComponent }) => {
       </div>
       <div className="content-container">
         <div className="content-container-header">
+          <div
+            className="Menu_Container"
+            onClick={() => {
+              SideMenuHanlder();
+            }}
+          >
+            <img src={MenuIcon} alt="Menu" />
+          </div>
           <div className="header-div">
             <div className="Hed_Out">
               <img src={notification} alt="Notification" />
@@ -99,4 +140,4 @@ const index = ({ Children: ReactComponent }) => {
   );
 };
 
-export default index;
+export default Index;
