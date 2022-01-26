@@ -1,0 +1,85 @@
+.help_Card {
+  width: 320px;
+
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  padding: 36px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.Help_Cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px 0px;
+}
+
+.Card_Title {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 18px;
+  color: #212121;
+  margin-bottom: 8px;
+  width: 70px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ff0066;
+}
+
+.Card_SubTitle {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  color: #666666;
+}
+
+.Help_Round {
+  width: 46px;
+  height: 46px;
+  background: #ff0066;
+  /* Pink */
+
+  border: 1px solid #ff0066;
+  box-sizing: border-box;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.Help_Btn {
+  width: 200px;
+  height: 50px;
+  background: #ff0066;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Help_GRid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 
+@media (max-width: 1300px) {
+  .Help_GRid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 961px) {
+  .Help_GRid {
+    grid-template-columns: 1fr;
+  }
+} */

@@ -1,0 +1,322 @@
+.Botmanager_Main_COntainer {
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.Bot_Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Add_button {
+  background: #ffffff;
+  border: 1px solid #f2f3f4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Add_button div {
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #667685;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+.Bot_table {
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  height: 700px;
+  margin-top: 15px;
+  padding: 30px;
+}
+.Bot_Table_header {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 3fr 3fr;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: #f5f8fa;
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.Bot_Table_header div {
+  padding: 15px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Bot_Table_header div:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Bot_Table_Body {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr 3fr 3fr;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+
+  color: #001b34;
+}
+
+.Bot_Table_Body div {
+  padding: 15px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.Bot_Table_Body div:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Bot_Table_Body div:first-child {
+  background: #f5f8fa;
+}
+
+.Chat_Box_Bot_manager {
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  padding: 30px 45px;
+  width: fit-content;
+}
+/* Chat_Box_Bot_manager */
+.Chat_Box_main_Container {
+  background: #ffffff;
+  border: 0.7px solid #d9d9d9;
+  box-sizing: border-box;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  width: 477px;
+}
+.Chat_box_header_Container {
+  background: #ff0066;
+  border: 0.7px solid #d9d9d9;
+  box-sizing: border-box;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  height: 80px;
+  width: 100%;
+}
+.Chat_Box_Body_Container {
+  height: 400px;
+  overflow: auto;
+  padding: 15px;
+  border-bottom: 1px solid #dfdfdf;
+  width: calc(100% - 30px);
+}
+
+.Chat_box_Footer_Container {
+  padding: 15px;
+}
+.chat_Bot_Fot_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Chat_bot_Input_Main {
+  position: relative;
+  width: 90%;
+}
+.Chat_bot_Input_Main img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.Chat_bot_Input_Main input {
+  background: #f1f1f1;
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  width: 90%;
+}
+.user_Chat_Container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 70%;
+  float: left;
+  margin: 10px 0px;
+}
+.user_Chat_Container img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.user_Chat_Content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.user_Chat_Content span {
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  color: #767676;
+  margin-top: 7px;
+}
+
+.user_Chat_Data {
+  width: fit-content;
+  background: #89a1b2;
+  text-align: end;
+  margin: 7px 0px;
+  padding: 15px 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  color: #ffffff;
+  border-radius: 25px 25px 25px 10px;
+}
+
+.bot_Chat_Container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 70%;
+  float: right;
+  margin: 10px 0px;
+}
+.bot_Chat_Content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.bot_Chat_Content span {
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  color: #767676;
+  margin-top: 7px;
+}
+
+.bot_Chat_Data {
+  background: #e0e0e0;
+  padding: 15px 20px;
+  border-radius: 25px 25px 10px 25px;
+
+  /* font-family: Nunito Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  color: #3d3d3d;
+}
+.bot_Chat_Container img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Display_Chat_Box_Bot_manager {
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  padding: 30px 45px;
+  height: 650px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Dep_Container {
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 550px;
+}
+
+.Dep_Input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.Dep_Input span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.Dep_Input input {
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #00000036;
+  width: 300px;
+}
+
+.Dep_btn_Container {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 3fr;
+}
+
+.Dep_Btn {
+  width: 168px;
+  height: 50px;
+  left: 375px;
+  top: 376px;
+
+  background: #ff0066;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-style: normal;
+  font-weight: 450;
+  font-size: 16px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.Dep_Outline_Btn {
+  background-color: #fff;
+  border: 1px solid #ff0066;
+  color: #ff0066;
+}

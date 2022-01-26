@@ -1,0 +1,67 @@
+.Bling_date_piker_main_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin-bottom: 30px !important;
+}
+
+.date_piker_container {
+  background: #ffffff;
+  border: 1px solid #f2f3f4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.Bling_date_piker_main_container .common_header {
+  margin-right: 85px;
+}
+
+.Billing_card {
+  max-width: 433px;
+  height: 250px;
+  background: linear-gradient(
+    288.31deg,
+    #ff0066 7.3%,
+    rgba(255, 0, 102, 0.6) 105.08%
+  );
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 100px;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.Card_Design_Top {
+  position: absolute;
+  top: -40%;
+  left: 0px;
+}
+.Card_Design_Bottom {
+  position: absolute;
+  bottom: -40%;
+  right: 0px;
+}
+
+@media (max-width: 1300px) {
+  .date_piker_container {
+    margin-left: 0px;
+    margin-right: 10px;
+    /* width: 100%; */
+  }
+
+  .date_piker_main_container .common_header {
+    margin-right: 25px;
+  }
+}

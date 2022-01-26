@@ -4,12 +4,12 @@ import PrivateRoute from "./PrivateRoute";
 const Login = lazy(() => import("./Screen/Login"));
 const Registration = lazy(() => import("./Screen/Registration"));
 const Analytics = lazy(() => import("./Screen/Analytics/Analytics"));
-const Billing = lazy(() => import("./Screen/Billing"));
-const BotManager = lazy(() => import("./Screen/BotManager"));
+const Billing = lazy(() => import("./Screen/Billing/Billing"));
+const BotManager = lazy(() => import("./Screen/BotManager/BotManager"));
 const Conversations = lazy(() => import("./Screen/Conversations/Conversation"));
 const Dashboard = lazy(() => import("./Screen/Dashboard/Dashboard"));
-const HelpCenter = lazy(() => import("./Screen/HelpCenter"));
-const Settings = lazy(() => import("./Screen/Settings"));
+const HelpCenter = lazy(() => import("./Screen/HelpCenter/HelpCenter"));
+const Settings = lazy(() => import("./Screen/Settings/Settings"));
 
 const App = () => {
   return (
