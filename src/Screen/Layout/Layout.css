@@ -1,0 +1,144 @@
+.layout-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+/* SIDEBAR */
+.side-bar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-header-main {
+  background-color: #001b34;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.SideBarLink {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #31475c;
+}
+
+.activeLink {
+  background: #ff006618;
+  color: #ff0066;
+  position: relative;
+}
+.activeLink::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 80%;
+  border-left: 3px solid #ff0066;
+  z-index: 1;
+}
+
+.activeLink img {
+  filter: invert(16%) sepia(70%) saturate(7040%) hue-rotate(329deg)
+    brightness(100%) contrast(109%);
+}
+
+.SideBarLink img {
+  margin-right: 15px;
+  /* height: 20px;
+  width: 20px; */
+  object-fit: cover;
+  margin-left: 25px;
+}
+/* SIDEBAR_END*/
+
+/* CONTENTCONTENT */
+.content-container-header {
+  height: 80px;
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.header-div {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.Hed_Out {
+  background: #f5f8fa;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+.Profile_Drop_Down {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f3f4;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.Profile_Drop_Down span {
+  margin: 0px 10px;
+}
+.Profile_Drop_Down .Profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.Profile_Drop_Down .DownIcon {
+  margin-right: 10px;
+}
+
+.content-container {
+  background-color: #f5f8fa;
+}
+
+.content-children-container {
+  height: calc(100vh - 80px);
+  overflow: auto;
+  padding: 30px;
+  width: calc(100vw - 360px);
+}
+
+/* CONTENTCONTENT_ENd */
+
+@media (max-width: 961px) {
+  .layout-container {
+    grid-template-columns: 250px 1fr;
+  }
+  .content-children-container {
+    padding: 20px;
+    width: calc(100vw - 290px);
+  }
+}

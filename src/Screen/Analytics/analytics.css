@@ -1,0 +1,132 @@
+/* TAB_START */
+
+.Tab_Bar_Design {
+  background-color: #fff;
+}
+
+.Tab_bar_Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.Tab_Bar_Design {
+  width: fit-content;
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Tab_Bar_Design div {
+  padding: 10px 50px;
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #001b34;
+}
+
+.Active_Tab {
+  background-color: #ff0066;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+/* TAB_END */
+
+.Anaclitic_Main_COntainer {
+  width: 100%;
+  margin: 40px 0px;
+}
+
+.chart_card {
+  max-width: 800px;
+  min-height: 450px;
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.chart_main_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  margin-bottom: 35px;
+}
+
+.chart_container {
+  background: #ffffff;
+  box-shadow: 0px 10.7326px 21.4651px rgba(0, 0, 0, 0.07);
+  border-radius: 4.12791px;
+  min-height: 355px;
+}
+
+.FAQ_Container {
+  background: #ffffff;
+  box-shadow: 0px 13px 26px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  min-height: 339px;
+  padding: 30px;
+}
+
+.FAQ_Cont {
+  margin: 60px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FAQ_TOPIC {
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #33495d;
+  width: 50%;
+}
+
+.progress {
+  background: rgba(122, 211, 255, 0.2);
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 550px;
+}
+
+.progress-done {
+  background: #ff0066;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
+}
+
+@media (max-width: 961px) {
+  .chart_main_container {
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+  }
+  .FAQ_Container {
+    padding: 20px;
+  }
+  .FAQ_Cont {
+    flex-direction: column;
+  }
+  .FAQ_TOPIC {
+    width: 100%;
+  }
+  .progress {
+    max-width: 450px;
+  }
+}

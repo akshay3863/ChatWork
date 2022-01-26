@@ -1,0 +1,60 @@
+.top_container_selection {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.from_date_span {
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #667685;
+  margin: 0px 20px;
+}
+
+.date_span {
+  /* font-family: Neue Helvetica; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #001b34;
+}
+.date_piker_main_container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.date_piker_container {
+  background: #ffffff;
+  border: 1px solid #f2f3f4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+@media (max-width: 1300px) {
+  .date_piker_container {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    /* width: 100%; */
+  }
+
+  .common-select {
+    width: 100%;
+  }
+}
