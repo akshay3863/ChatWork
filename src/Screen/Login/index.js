@@ -5,7 +5,9 @@ import LogoImg from "../../assets/Logo.svg";
 import EyeImg from "../../assets/eye.svg";
 import GoogleImg from "../../assets/google.svg";
 import FbImg from "../../assets/fb.svg";
-const index = () => {
+import { useNavigate } from "react-router-dom";
+const Login = () => {
+  let navigate = useNavigate();
   return (
     <div className="login-container">
       <div className="Illustration-container">
@@ -35,7 +37,14 @@ const index = () => {
               <span>Forgot Password?</span>
             </div>
           </div>
-          <button className="common-button">Login</button>
+          <button
+            className="common-button"
+            onClick={() => {
+              navigate("/dashboard");
+            }}
+          >
+            Login
+          </button>
           <div className="dividers-line">
             <span>Or Login With</span>
           </div>
@@ -47,7 +56,10 @@ const index = () => {
               <img alt="EyeImg" src={FbImg} />
             </div>
           </div>
-          <div className="bottom-reg-container">
+          <div
+            className="bottom-reg-container"
+            style={{ marginBottom: "40px" }}
+          >
             Don’t have an account? <span>Register</span>
           </div>
         </div>
@@ -56,4 +68,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Login;
