@@ -6,6 +6,8 @@
   background-color: #fff;
   column-gap: 50px;
   overflow: auto;
+  max-width: 1650px;
+  margin: auto;
 }
 
 .Illustration-container {
@@ -50,7 +52,7 @@
 .common-input {
   background: #f6f6f6;
   border-radius: 12px;
-  padding: 25px 0px 25px 15px;
+  padding: 20px 0px 20px 15px;
   width: calc(100% - 15px);
   outline: none;
   border: none;
@@ -104,7 +106,7 @@
   width: 100%;
   outline: none;
   border: none;
-  padding: 25px 0px;
+  padding: 20px 0px;
   color: #fff;
   /* font-family: Neue Helvetica; */
   font-style: normal;

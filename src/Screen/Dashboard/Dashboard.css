@@ -38,11 +38,11 @@
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0px;
-  margin-top: 5px;
+  margin-top: 2px;
 }
 .card_round_icon {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   background: #ffffff3f;
 
   border-radius: 50%;
@@ -169,7 +169,7 @@
   margin-top: 5px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .top_card_parent_container {
     grid-template-columns: 1fr 1fr;
     row-gap: 15px;

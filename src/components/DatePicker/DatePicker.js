@@ -5,7 +5,7 @@ import "./index.css";
 const datePicker = () => {
   return (
     <div className="top_container_selection">
-      <div>
+      <div className="common-Select-Container">
         <select className="common-select">
           {[0, 2, 3, 4].map((val) => {
             return <option key={val}>All Boats</option>;

@@ -30,7 +30,6 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 5px;
 }
 
 .date_piker_container {
@@ -44,17 +43,30 @@
   height: 50px;
   cursor: pointer;
   margin-left: 20px;
+  margin-top: 10px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1350px) {
   .date_piker_container {
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 10px;
-    /* width: 100%; */
+    width: 50%;
   }
 
   .common-select {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .common-Select-Container {
+    display: flex;
+    width: 100%;
+  }
+  .date_piker_main_container {
+    flex-wrap: nowrap;
     width: 100%;
   }
 }
