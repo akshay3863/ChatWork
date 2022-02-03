@@ -19,7 +19,7 @@ body {
 .CF15 {
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.02em;
 }
@@ -27,7 +27,7 @@ body {
 .CF18 {
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.02em;
   line-height: 20px;
 }
@@ -102,11 +102,14 @@ body {
 /* TAB_END */
 @media (max-width: 2100px) {
   .CF15 {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .CF18 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .common_header {
+    font-size: 24px;
   }
 }
 @media (max-width: 1700px) {
@@ -116,6 +119,9 @@ body {
 
   .CF18 {
     font-size: 16px;
+  }
+  .common_header {
+    font-size: 22px;
   }
 }
 
@@ -129,9 +135,12 @@ body {
   .SideBarLink {
     height: 55px;
   }
+  .common_header {
+    font-size: 20px;
+  }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1440px) {
   .Tab_Bar_Design div {
     padding: 8px 40px;
   }

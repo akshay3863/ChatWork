@@ -29,7 +29,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 38px;
+
   letter-spacing: 0.02em;
   color: #ffffff;
   margin: 0px;
@@ -150,7 +150,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 38px;
+
   letter-spacing: 0.02em;
 
   /* Black */
@@ -158,6 +158,34 @@
   color: #001b34;
   margin: 0px;
   margin-top: 5px;
+}
+
+@media (max-width: 1700px) {
+  .CF15 {
+    font-size: 14px;
+  }
+
+  .CF18 {
+    font-size: 16px;
+  }
+  .common_header {
+    font-size: 22px;
+  }
+
+  .sup_content_container h1 {
+    font-size: 23px;
+  }
+  .card_content_container h1 {
+    font-size: 23px;
+  }
+  .card_round_icon {
+    width: 50px;
+    height: 50px;
+  }
+  .sup_card_round_icon {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -184,6 +212,12 @@
   }
   .top_card_container {
     padding: 15px;
+  }
+  .sup_content_container h1 {
+    font-size: 20px;
+  }
+  .card_content_container h1 {
+    font-size: 20px;
   }
 }
 

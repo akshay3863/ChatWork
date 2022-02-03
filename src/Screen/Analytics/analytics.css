@@ -60,7 +60,7 @@
   transition: 1s ease 0.3s;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1440px) {
   .progress {
     max-width: 400px;
   }
