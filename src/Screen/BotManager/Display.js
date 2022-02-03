@@ -18,13 +18,15 @@ const Display = () => {
                   <div className="user_Chat_Container">
                     <img src={UserImg} />
                     <div className="user_Chat_Content">
-                      <div className="user_Chat_Data">Hey! How are you?</div>
+                      <div className="user_Chat_Data CF15">
+                        Hey! How are you?
+                      </div>
                       <span>10:50AM</span>
                     </div>
                   </div>
                   <div className="bot_Chat_Container">
                     <div className="bot_Chat_Content">
-                      <div className="bot_Chat_Data">
+                      <div className="bot_Chat_Data CF15">
                         Hey! How are you? hello akshay
                       </div>
                       <span>10:50AM</span>

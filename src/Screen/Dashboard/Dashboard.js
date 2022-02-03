@@ -12,7 +12,7 @@ const index = () => {
         <div className="top_card_parent_container">
           <div className="top_card_container pink_card">
             <div className="card_content_container">
-              <span>Total Chat</span>
+              <span className="CF18">Total Chat</span>
               <h1>10k</h1>
             </div>
             <div className="card_round_icon">
@@ -21,7 +21,7 @@ const index = () => {
           </div>
           <div className="top_card_container green_card">
             <div className="card_content_container">
-              <span>Total Chat</span>
+              <span className="CF18">Total Chat</span>
               <h1>10k</h1>
             </div>
             <div className="card_round_icon">
@@ -30,7 +30,7 @@ const index = () => {
           </div>
           <div className="top_card_container yellow_card">
             <div className="card_content_container">
-              <span>Total Chat</span>
+              <span className="CF18">Total Chat</span>
               <h1>10k</h1>
             </div>
             <div className="card_round_icon">
@@ -39,7 +39,7 @@ const index = () => {
           </div>
           <div className="top_card_container blue_card">
             <div className="card_content_container">
-              <span>Total Chat</span>
+              <span className="CF18">Total Chat</span>
               <h1>10k</h1>
             </div>
             <div className="card_round_icon">
@@ -60,7 +60,7 @@ const index = () => {
           <div className="sup_card_round_icon pink_round">
             <img src={Card_arrow_img} alt="arrow" />
           </div>
-          <div className="sup_content_container">
+          <div className="sup_content_container CF18">
             <span>FRSC</span>
             <h1>41%</h1>
           </div>
@@ -69,7 +69,7 @@ const index = () => {
           <div className="sup_card_round_icon green_round">
             <img src={Card_arrow_img} alt="arrow" />
           </div>
-          <div className="sup_content_container">
+          <div className="sup_content_container CF18">
             <span>FRSC</span>
             <h1>41%</h1>
           </div>
@@ -78,7 +78,7 @@ const index = () => {
           <div className="sup_card_round_icon yellow_round">
             <img src={feedback} alt="arrow" />
           </div>
-          <div className="sup_content_container">
+          <div className="sup_content_container CF18">
             <span>FRSC</span>
             <h1>41%</h1>
           </div>
@@ -87,7 +87,7 @@ const index = () => {
           <div className="sup_card_round_icon red_round">
             <img src={feedback} alt="arrow" />
           </div>
-          <div className="sup_content_container">
+          <div className="sup_content_container CF18">
             <span>FRSC</span>
             <h1>41%</h1>
           </div>

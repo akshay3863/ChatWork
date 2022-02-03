@@ -56,12 +56,7 @@
   width: calc(100% - 15px);
   outline: none;
   border: none;
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.02em;
+
   color: #94959b;
   margin: 10px 0px;
 }
@@ -89,12 +84,6 @@
 }
 
 .forgot-div span {
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: 0.02em;
   color: #0d0d0d;
   margin: 0px 5px;
   cursor: pointer;
@@ -108,12 +97,7 @@
   border: none;
   padding: 20px 0px;
   color: #fff;
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: 450;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.02em;
+
   margin: 10px 0px;
   cursor: pointer;
 }
@@ -131,9 +115,9 @@
   top: -20px;
   background-color: #fff;
   padding: 10px;
-  font-size: 15px;
+
   line-height: 20px;
-  letter-spacing: 0.02em;
+
   color: #333333;
 }
 

@@ -84,23 +84,29 @@ const Index = ({ Children: ReactComponent }) => {
       >
         <div className="side-header-main">
           <img src={LogoImg} alt="Logo" className="Logo_Img" />
-          <div
-            className="Close_Container"
-            onClick={() => {
-              SideMenuHanlder();
-            }}
-          >
-            <img src={CloseIcon} alt="Menu" />
+          <div className="Close_Container">
+            <img
+              src={CloseIcon}
+              alt="Menu"
+              onClick={() => {
+                SideMenuHanlder();
+              }}
+            />
           </div>
         </div>
         {NavLinkData.map((value, index) => {
           return (
             <NavLink
               className={({ isActive }) =>
-                isActive ? "activeLink SideBarLink" : "SideBarLink"
+                isActive ? "activeLink SideBarLink CF18" : "SideBarLink CF18"
               }
               to={value.path}
               key={index}
+              onClick={() => {
+                if (width <= 768) {
+                  return SideMenuHanlder();
+                }
+              }}
             >
               <img src={value.Icon} alt="Home" />
               <span>{value.Name}</span>

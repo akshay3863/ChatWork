@@ -21,12 +21,7 @@
 }
 
 .card_content_container span {
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
   line-height: 23px;
-  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .card_content_container h1 {
@@ -90,8 +85,8 @@
   margin-bottom: 35px;
 }
 .sup_card_round_icon {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   background: #ffffff3f;
 
   border-radius: 50%;
@@ -140,10 +135,6 @@
 }
 
 .sup_content_container span {
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
   line-height: 23px;
   /* identical to box height */
 
@@ -182,5 +173,30 @@
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
     padding: 20px;
+  }
+  .card_round_icon {
+    width: 50px;
+    height: 50px;
+  }
+  .sup_card_round_icon {
+    width: 50px;
+    height: 50px;
+  }
+  .top_card_container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card_round_icon {
+    width: 45px;
+    height: 45px;
+  }
+  .sup_card_round_icon {
+    width: 45px;
+    height: 45px;
+  }
+  .top_card_container {
+    padding: 10px;
   }
 }

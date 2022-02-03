@@ -20,7 +20,7 @@
 
 .side-header-main {
   background-color: #001b34;
-  height: 80px;
+  height: 75px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -31,17 +31,11 @@
 
 .SideBarLink {
   width: 100%;
-  height: 70px;
+  height: 65px;
   display: flex;
   align-items: center;
 
   text-decoration: none;
-
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  letter-spacing: 0.02em;
   color: #31475c;
 }
 
@@ -144,15 +138,17 @@
 .Close_Container {
   display: none;
 }
+.Logo_Img {
+  width: 180px;
+}
 
 /* CONTENTCONTENT_ENd */
 
-/* @media (max-width: 961px) {
-  .content-children-container {
-    padding: 20px;
-    width: calc(100vw - 290px);
+@media (max-width: 1350px) {
+  .SideBarLink {
+    height: 60px;
   }
-} */
+}
 @media (max-width: 768px) {
   .side-bar-container {
     position: absolute;
@@ -197,5 +193,8 @@
   .Logo_Img {
     width: 150px;
     margin: 15px;
+  }
+  .SideBarLink {
+    height: 55px;
   }
 }

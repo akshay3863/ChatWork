@@ -8,22 +8,14 @@
 
 .from_date_span {
   /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
+
   color: #667685;
   margin: 0px 20px;
 }
 
 .date_span {
   /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
+
   color: #001b34;
 }
 .date_piker_main_container {
@@ -52,6 +44,7 @@
     margin-left: 0px;
     margin-right: 10px;
     width: 50%;
+    padding: 12px 10px;
   }
 
   .common-select {

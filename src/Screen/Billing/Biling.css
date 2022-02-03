@@ -24,8 +24,8 @@
 }
 
 .Billing_card {
-  max-width: 433px;
-  height: 250px;
+  width: 400px;
+  height: 220px;
   background: linear-gradient(
     288.31deg,
     #ff0066 7.3%,
@@ -63,5 +63,10 @@
 
   .date_piker_main_container .common_header {
     margin-right: 25px;
+  }
+
+  .Billing_card {
+    width: 370px;
+    height: 200px;
   }
 }

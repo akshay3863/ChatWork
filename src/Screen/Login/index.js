@@ -19,33 +19,33 @@ const Login = () => {
         </div>
         <div className="right-login-Bottom-container">
           <h1>Welcome</h1>
-          <input placeholder="email" className="common-input" />
+          <input placeholder="email" className="common-input CF18" />
           <div className="relative-input-container">
             <input
               placeholder="password"
               type="password"
-              className="common-input"
+              className="common-input CF18"
             />
             <img alt="EyeImg" src={EyeImg} />
           </div>
           <div className="forgot-div">
             <div>
               <input type="checkbox" />
-              <span>Remember me</span>
+              <span className="CF18">Remember me</span>
             </div>
             <div>
               <span>Forgot Password?</span>
             </div>
           </div>
           <button
-            className="common-button"
+            className="common-button CF18"
             onClick={() => {
               navigate("/dashboard");
             }}
           >
             Login
           </button>
-          <div className="dividers-line">
+          <div className="dividers-line CF15">
             <span>Or Login With</span>
           </div>
           <div className="social-container">

@@ -23,9 +23,7 @@
 
 .Add_button div {
   /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+
   color: #667685;
   clear: both;
   display: inline-block;
@@ -45,11 +43,7 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background: #f5f8fa;
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  letter-spacing: 0.02em;
+
   color: #000000;
 }
 .Bot_Table_header div {
@@ -67,12 +61,6 @@
   grid-template-columns: 0.5fr 1.5fr 3fr 3fr;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  letter-spacing: 0.02em;
 
   color: #001b34;
 }
@@ -185,9 +173,7 @@
   text-align: end;
   margin: 7px 0px;
   padding: 15px 20px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+
   line-height: 135%;
   color: #ffffff;
   border-radius: 25px 25px 25px 10px;
@@ -218,11 +204,6 @@
   background: #e0e0e0;
   padding: 15px 20px;
   border-radius: 25px 25px 10px 25px;
-
-  /* font-family: Nunito Sans; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
 
   color: #3d3d3d;
 }
@@ -255,9 +236,6 @@
 }
 
 .Dep_Input span {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
   color: #000000;
   margin-right: 10px;
 }
@@ -269,9 +247,7 @@
   border-radius: 10px;
   padding: 15px;
   outline: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+
   color: #00000036;
   width: 300px;
 }
@@ -293,12 +269,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
-  font-style: normal;
-  font-weight: 450;
-  font-size: 15px;
   color: #ffffff;
-
   cursor: pointer;
 }
 

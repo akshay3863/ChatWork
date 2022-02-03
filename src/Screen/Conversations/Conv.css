@@ -20,10 +20,6 @@
   border-radius: 10px;
   padding: 20px;
 
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: 450;
-  font-size: 18px;
   color: #667685;
   align-items: center;
   justify-content: center;
@@ -48,10 +44,6 @@
   border-radius: 10px;
   padding: 20px;
 
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: 450;
-  font-size: 18px;
   color: #001b34;
   align-items: center;
   justify-content: center;
@@ -86,19 +78,11 @@
 }
 
 .Chat_Box_title_key {
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: 450;
-  font-size: 18px;
   color: #001b34;
   margin-right: 10px;
 }
 
 .Chat_Box_title_value {
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
   color: #001b34;
   opacity: 0.6;
 }
@@ -116,9 +100,6 @@
   margin: 10px 0px;
   padding: 15px 20px;
 
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
   line-height: 135%;
   color: #5d6066;
   border-radius: 25px 25px 25px 10px;
@@ -135,9 +116,7 @@
   border-radius: 25px 25px 10px 25px;
 
   /* font-family: Nunito Sans; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+
   line-height: 135%;
   color: #ffffff;
 }

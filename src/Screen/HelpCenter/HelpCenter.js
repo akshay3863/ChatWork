@@ -13,30 +13,32 @@ const HelpCenter = () => {
             <img alt="email" src={Email_Icon} />
           </div>
           <div className="Help_Cont">
-            <span className="Card_Title">Email</span>
-            <span className="Card_SubTitle">help.smartbot@servicepack.ai</span>
+            <span className="Card_Title CF18">Email</span>
+            <span className="Card_SubTitle CF15">
+              help.smartbot@servicepack.ai
+            </span>
           </div>
-          <div className="Help_Btn">Email</div>
+          <div className="Help_Btn CF15">Email</div>
         </div>
         <div className="help_Card">
           <div className="Help_Round">
             <img alt="email" src={Call_Icon} />
           </div>
           <div className="Help_Cont">
-            <span className="Card_Title">Phone</span>
-            <span className="Card_SubTitle">+1 123-456 (7890)</span>
+            <span className="Card_Title CF18">Phone</span>
+            <span className="Card_SubTitle CF15">+1 123-456 (7890)</span>
           </div>
-          <div className="Help_Btn">Phone</div>
+          <div className="Help_Btn CF15">Phone</div>
         </div>
         <div className="help_Card">
           <div className="Help_Round">
             <img alt="email" src={Messages_Icon} />
           </div>
           <div className="Help_Cont">
-            <span className="Card_Title">Chat</span>
-            <span className="Card_SubTitle">Chat With Us</span>
+            <span className="Card_Title CF18">Chat</span>
+            <span className="Card_SubTitle CF15">Chat With Us</span>
           </div>
-          <div className="Help_Btn">Chat Now</div>
+          <div className="Help_Btn CF15">Chat Now</div>
         </div>
       </div>
     </div>

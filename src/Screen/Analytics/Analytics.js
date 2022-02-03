@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div>
       <div className="Tab_bar_Container">
-        <div className="Tab_Bar_Design">
+        <div className="Tab_Bar_Design CF15">
           <div
             className={activeTab === "Topics" ? "Active_Tab" : ""}
             onClick={() => {

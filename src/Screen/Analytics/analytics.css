@@ -34,11 +34,6 @@
   align-items: center;
 }
 .FAQ_TOPIC {
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  letter-spacing: 0.02em;
   color: #33495d;
   width: 50%;
 }
@@ -65,6 +60,12 @@
   transition: 1s ease 0.3s;
 }
 
+@media (max-width: 1350px) {
+  .progress {
+    max-width: 400px;
+  }
+}
+
 @media (max-width: 961px) {
   .chart_main_container {
     grid-template-columns: 1fr;
@@ -79,7 +80,10 @@
   .FAQ_TOPIC {
     width: 100%;
   }
-  .progress {
-    max-width: 450px;
+}
+
+@media (max-width: 768px) {
+  .FAQ_Cont {
+    align-items: flex-start;
   }
 }

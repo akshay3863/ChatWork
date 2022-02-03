@@ -16,6 +16,22 @@ body {
   border-radius: 5px;
 }
 
+.CF15 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+
+.CF18 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+}
+
 .common-select {
   background: #ffffff;
   border: 1px solid #f2f3f4;
@@ -33,13 +49,6 @@ body {
   -moz-appearance: none;
   margin-right: 20px;
   margin-top: 10px;
-
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 0.02em;
 
   /* Grey */
 
@@ -80,14 +89,7 @@ body {
 
 .Tab_Bar_Design div {
   padding: 10px 50px;
-  /* font-family: Neue Helvetica; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
   text-align: center;
-  letter-spacing: 0.02em;
-
   color: #001b34;
 }
 
@@ -98,3 +100,52 @@ body {
 }
 
 /* TAB_END */
+@media (max-width: 2100px) {
+  .CF15 {
+    font-size: 18px;
+  }
+
+  .CF18 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1700px) {
+  .CF15 {
+    font-size: 14px;
+  }
+
+  .CF18 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 961px) {
+  .Tab_Bar_Design div {
+    padding: 5px 35px;
+  }
+  .common-select {
+    padding: 10px 20px;
+  }
+  .SideBarLink {
+    height: 55px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .Tab_Bar_Design div {
+    padding: 8px 40px;
+  }
+  .common-select {
+    padding: 12px 20px;
+  }
+  .SideBarLink {
+    height: 55px;
+  }
+  .CF15 {
+    font-size: 13px;
+  }
+
+  .CF18 {
+    font-size: 16px;
+  }
+}

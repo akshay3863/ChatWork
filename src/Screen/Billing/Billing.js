@@ -11,13 +11,13 @@ const Billing = () => {
         </div>
         <div className="date_piker_container">
           <img src={calenderImg} alt="calender" />
-          <span className="from_date_span">From Date :</span>
-          <span className="date_span">18/04/1999</span>
+          <span className="from_date_span CF15">From Date :</span>
+          <span className="date_span CF15">18/04/1999</span>
         </div>
         <div className="date_piker_container">
           <img src={calenderImg} alt="calender" />
-          <span className="from_date_span">From Date :</span>
-          <span className="date_span">18/04/1999</span>
+          <span className="from_date_span CF15">From Date :</span>
+          <span className="date_span CF15">18/04/1999</span>
         </div>
       </div>
       <div className="Billing_card">
