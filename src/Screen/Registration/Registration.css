@@ -6,8 +6,8 @@
   background-color: #fff;
   column-gap: 50px;
   overflow: auto;
-  max-width: 1650px;
-  margin: auto;
+  max-width: 1750px;
+  max-height: 950px;
 }
 
 .Illustration-container {
@@ -111,7 +111,7 @@
   /* font-family: Neue Helvetica; */
   font-style: normal;
   font-weight: 450;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
   margin: 10px 0px;
@@ -131,7 +131,7 @@
   top: -20px;
   background-color: #fff;
   padding: 10px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 20px;
   letter-spacing: 0.02em;
   color: #333333;

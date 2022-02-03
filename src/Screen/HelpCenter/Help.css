@@ -33,7 +33,7 @@
 .Card_SubTitle {
   font-style: normal;
   font-weight: 450;
-  font-size: 16px;
+  font-size: 15px;
   color: #666666;
 }
 
@@ -61,7 +61,7 @@
   justify-content: center;
   font-style: normal;
   font-weight: 450;
-  font-size: 16px;
+  font-size: 15px;
   color: #ffffff;
   cursor: pointer;
 }

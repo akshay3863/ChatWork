@@ -23,7 +23,7 @@
   /* font-family: Neue Helvetica; */
   font-style: normal;
   font-weight: 450;
-  font-size: 20px;
+  font-size: 18px;
   color: #667685;
   align-items: center;
   justify-content: center;
@@ -118,7 +118,7 @@
 
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 135%;
   color: #5d6066;
   border-radius: 25px 25px 25px 10px;
@@ -137,7 +137,7 @@
   /* font-family: Nunito Sans; */
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 135%;
   color: #ffffff;
 }
