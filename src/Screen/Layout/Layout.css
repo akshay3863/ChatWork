@@ -13,7 +13,7 @@
 .side-bar-container {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 280px;
   transition: 0.8s ease;
   background-color: #fff;
 }

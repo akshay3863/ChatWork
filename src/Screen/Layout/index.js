@@ -61,13 +61,13 @@ const Index = ({ Children: ReactComponent }) => {
     if (xPosition < 0) {
       setX(0);
     } else {
-      setX(-300);
+      setX(-280);
     }
   };
 
   useEffect(() => {
     if (width <= 768) {
-      setX(-300);
+      setX(-280);
     }
     if (width >= 768) {
       setX(0);
