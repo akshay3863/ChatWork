@@ -13,7 +13,7 @@
 }
 
 .top_card_container {
-  padding: 20px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,8 +36,8 @@
   margin-top: 2px;
 }
 .card_round_icon {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   background: #ffffff3f;
 
   border-radius: 50%;
@@ -71,7 +71,7 @@
   background: #ffffff;
   box-shadow: 0px 10.7326px 21.4651px rgba(0, 0, 0, 0.07);
   border-radius: 4.12791px;
-  min-height: 355px;
+  min-height: 300px;
 }
 
 .support_container {
@@ -85,8 +85,8 @@
   margin-bottom: 35px;
 }
 .sup_card_round_icon {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   background: #ffffff3f;
 
   border-radius: 50%;
@@ -179,12 +179,12 @@
     font-size: 23px;
   }
   .card_round_icon {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
   .sup_card_round_icon {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
 }
 
@@ -200,15 +200,15 @@
   .support_container {
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;
-    padding: 20px;
+    padding: 15px;
   }
   .card_round_icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   .sup_card_round_icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   .top_card_container {
     padding: 15px;
@@ -222,14 +222,6 @@
 }
 
 @media (max-width: 768px) {
-  .card_round_icon {
-    width: 45px;
-    height: 45px;
-  }
-  .sup_card_round_icon {
-    width: 45px;
-    height: 45px;
-  }
   .top_card_container {
     padding: 10px;
   }

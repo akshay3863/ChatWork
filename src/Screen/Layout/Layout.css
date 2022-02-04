@@ -13,7 +13,7 @@
 .side-bar-container {
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 250px;
   transition: 0.8s ease;
   background-color: #fff;
 }
@@ -146,7 +146,7 @@
 
 @media (max-width: 1440px) {
   .SideBarLink {
-    height: 60px;
+    height: 55px;
   }
 }
 @media (max-width: 768px) {
@@ -156,7 +156,7 @@
     height: 100%;
   }
   .content-children-container {
-    padding: 20px;
+    padding: 15px;
     width: calc(100vw - 40px);
   }
   .Menu_Container {
@@ -193,8 +193,5 @@
   .Logo_Img {
     width: 150px;
     margin: 15px;
-  }
-  .SideBarLink {
-    height: 55px;
   }
 }

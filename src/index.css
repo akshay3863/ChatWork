@@ -102,7 +102,7 @@ body {
 /* TAB_END */
 @media (max-width: 2100px) {
   .CF15 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .CF18 {
@@ -114,11 +114,11 @@ body {
 }
 @media (max-width: 1700px) {
   .CF15 {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .CF18 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .common_header {
     font-size: 22px;
@@ -149,12 +149,5 @@ body {
   }
   .SideBarLink {
     height: 55px;
-  }
-  .CF15 {
-    font-size: 13px;
-  }
-
-  .CF18 {
-    font-size: 16px;
   }
 }
