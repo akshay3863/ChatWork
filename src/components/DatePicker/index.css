@@ -47,6 +47,10 @@
     padding: 12px 10px;
   }
 
+  .date_piker_container img {
+    width: 20px;
+  }
+
   .common-select {
     width: 100%;
     margin-top: 10px;

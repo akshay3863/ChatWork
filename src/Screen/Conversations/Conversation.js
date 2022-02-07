@@ -47,16 +47,16 @@ const index = () => {
               </div>
             </div>
             <div className="Chat_Box_Body">
-              <div className="Receiver_Chat CF15">Hello, Akshay</div>
+              <div className="Receiver_Chat CF15">Hello, jhone</div>
               <div className="Sender_Chat CF15">Hello, Sir</div>
               <div className="Sender_Chat CF15">
-                Are yopu there hello akshay, whatshpaa me
+                Are yopu there hello jack, whatshpaa me
               </div>
               <div className="Receiver_Chat CF15">
-                Are yopu there hello akshay, whatshpaa me
+                Are yopu there hello jhone, whatshpaa me
               </div>
               <div className="Receiver_Chat CF15">
-                Are yopu there hello akshay, whatshpaa me
+                Are yopu there hello jack, whatshpaa me
               </div>
             </div>
           </div>

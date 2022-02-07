@@ -133,7 +133,7 @@ const Index = ({ Children: ReactComponent }) => {
             </div>
             <div className="Profile_Drop_Down">
               <img src={ProfilePic} alt="Profile" className="Profile" />
-              <span>Akshay Solanki</span>
+              <span>Jack martin</span>
               <img src={DownIcon} alt="DownIcon" className="DownIcon" />
             </div>
           </div>

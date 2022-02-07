@@ -54,11 +54,15 @@
   right: 0px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
   .date_piker_container {
     margin-left: 0px;
     margin-right: 10px;
     /* width: 100%; */
+  }
+
+  .date_piker_container img {
+    width: 20px;
   }
 
   .date_piker_main_container .common_header {

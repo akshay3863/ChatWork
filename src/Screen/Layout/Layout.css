@@ -130,7 +130,7 @@
   height: calc(100vh - 80px);
   overflow: auto;
   padding: 30px;
-  width: calc(100vw - 300px);
+  width: calc(100vw - 250px);
 }
 
 .Menu_Container {
@@ -140,7 +140,7 @@
   display: none;
 }
 .Logo_Img {
-  width: 180px;
+  width: 150px;
 }
 
 /* CONTENTCONTENT_ENd */
@@ -158,7 +158,7 @@
   }
   .content-children-container {
     padding: 15px;
-    width: calc(100vw - 40px);
+    width: calc(100vw - 30px);
   }
   .Menu_Container {
     display: block;
@@ -192,7 +192,7 @@
   }
 
   .Logo_Img {
-    width: 150px;
+    width: 130px;
     margin: 15px;
   }
 }
