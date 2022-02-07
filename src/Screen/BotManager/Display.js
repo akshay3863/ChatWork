@@ -27,7 +27,7 @@ const Display = () => {
                   <div className="bot_Chat_Container">
                     <div className="bot_Chat_Content">
                       <div className="bot_Chat_Data CF15">
-                        Hey! How are you? hello akshay
+                        Hey! How are you? hello jhone
                       </div>
                       <span>10:50AM</span>
                     </div>
