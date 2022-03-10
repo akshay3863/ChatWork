@@ -5,7 +5,9 @@ import LogoImg from "../../assets/Logo.svg";
 import EyeImg from "../../assets/eye.svg";
 import GoogleImg from "../../assets/google.svg";
 import FbImg from "../../assets/fb.svg";
-const index = () => {
+import { useNavigate } from "react-router-dom";
+const Login = () => {
+  let navigate = useNavigate();
   return (
     <div className="login-container">
       <div className="Illustration-container">
@@ -17,26 +19,33 @@ const index = () => {
         </div>
         <div className="right-login-Bottom-container">
           <h1>Welcome</h1>
-          <input placeholder="email" className="common-input" />
+          <input placeholder="email" className="common-input CF18" />
           <div className="relative-input-container">
             <input
               placeholder="password"
               type="password"
-              className="common-input"
+              className="common-input CF18"
             />
             <img alt="EyeImg" src={EyeImg} />
           </div>
           <div className="forgot-div">
             <div>
               <input type="checkbox" />
-              <span>Remember me</span>
+              <span className="CF18">Remember me</span>
             </div>
             <div>
               <span>Forgot Password?</span>
             </div>
           </div>
-          <button className="common-button">Login</button>
-          <div className="dividers-line">
+          <button
+            className="common-button CF18"
+            onClick={() => {
+              navigate("/dashboard");
+            }}
+          >
+            Login
+          </button>
+          <div className="dividers-line CF15">
             <span>Or Login With</span>
           </div>
           <div className="social-container">
@@ -47,7 +56,10 @@ const index = () => {
               <img alt="EyeImg" src={FbImg} />
             </div>
           </div>
-          <div className="bottom-reg-container">
+          <div
+            className="bottom-reg-container"
+            style={{ marginBottom: "40px" }}
+          >
             Don’t have an account? <span>Register</span>
           </div>
         </div>
@@ -56,4 +68,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Login;

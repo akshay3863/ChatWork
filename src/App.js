@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React, { lazy, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import PrivateRoute from "./PrivateRoute";
 const Login = lazy(() => import("./Screen/Login"));
@@ -12,6 +12,9 @@ const HelpCenter = lazy(() => import("./Screen/HelpCenter/HelpCenter"));
 const Settings = lazy(() => import("./Screen/Settings/Settings"));
 
 const App = () => {
+  useEffect(() => {
+    localStorage.setItem("token", "akshay3863");
+  }, []);
   return (
     <React.Suspense fallback={<div>Loader....</div>}>
       <Routes>
